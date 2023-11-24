@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f2cd69;
+}
+.container {
+  text-align: center;
+  width: 530px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px 30px;
+  box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background: #E9F0FF;
+  list-style: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+/* Estilos para los botones */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #7fdb34;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #29b935;
+}
+.openBtn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2980b9;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.openBtn:hover {
+  background-color: #532bc0;
+}
+
+
+.deleteBtn {
+  background-color: #e74c3c;
+}
+
+.deleteBtn:hover {
+  background-color: #c0392b;
+}
